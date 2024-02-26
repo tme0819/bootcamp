@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Activity 3</title>
+</head>
+<body>
+<h1>HTML Activity 3</h1>
+<form action="#">
+<div>
+    <label for="name">
+        <p> Name:
+            <input type="text" name="name" placeholder="Enter your full name" required>
+        </p>
+    </label>
+        <label for="pnum">
+         <p>Phone number:
+             <input type="pnum" name="pnum" placeholder="Enter your phone number" require>
+        </p>
+    </label>
+    <label for="email">
+          <p>email:
+              <input type="email" name="email" placeholder="Enter your email address">
+          </p>
+    </label>
+</div>
+<p>Pleae choose your gender below:
+    <input type="radio" name="gender" id="female"><label for="female">Female</label>
+    <input type="radio" name="gender" id="male"><label for="male">Male</label>
+</p>
+<fieldset>
+    <legend>Favorite Animal?</legend>
+        <div>
+            <p><input type="radio" name="animal" id="dog"><label for="dog">Dog</label></p>
+            <p><input type="radio" name="animal" id="cat"><label for="cat">Cat</label></p>
+            <p><input type="radio" name="animal" id="bird"><label for="bird">Bird</label></p>
+            <p><input type="radio" name="animal" id="Ferret"><label for="Ferret">Ferret</label></p>
+        </div>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Favorite Food?</legend>
+        <div>
+            <p><input type="checkbox" name="food" id="curry"><label for="curry">Curry</label></p>
+            <p><input type="checkbox" name="food" id="tacos"><label for="tacos">Tacos</label></p>
+            <p><input type="checkbox" name="food" id="ramen"><label for="ramen">Ramen</label></p>
+            <p><input type="checkbox" name="food" id="sushi"><label for="sushi">Sushi</label></p>
+        </div>
+</fieldset>
+<fieldset>
+    <legend>Favorite country?</legend>
+        <div>
+        <label for="list">What is your favorite country?</label>
+        <p>
+            <select name="list" id="list">
+                <option disabled selected>--Select List Country</option>
+                <option value="jpn">Japan</option>
+                <option value="tai">England</option>
+                <option value="ko">Australia</option>
+                <option value="thai">U.S.</option>
+        </p>
+            </select>
+        </div>
+</fieldset>
+<div>
+    <button>Submit</button>
+</div>
+
+</form>
+</body>
+</html>

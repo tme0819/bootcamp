@@ -1,0 +1,85 @@
+.box-model{
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    background-color: rgba(0, 0, 0, .5);
+}
+.margin{
+    background-color: teal;
+    margin: 20px;
+    margin: 25px 40px;
+    margin: 40px 50px 60px;
+    margin: 50px 60px 70px 80px;
+}
+.specific-margin{
+    background-color: tomato;
+    margin-top: 100px;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+/* 
+When you use positive number, you push the other contents
+but using negative number will pull (make it closer) to another contents
+*/
+.negative-margin{
+    background-color: aqua;
+    margin-top: -50px;
+}
+.padding{
+    padding: 20px;
+    padding: 25px 15px;
+    padding: 30px 25px 35px;
+    padding: 40px 35px 40px 45px;
+}
+.specific-padding{
+    padding-top: 25px;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 10px;
+}
+
+/* Border */
+.border-style{
+    width: 300px;
+    border-width: 6px 10px 5px 8px;
+    border-style: dotted double dashed groove;
+    border-color: red blue green purple;
+    padding: 20px;
+    margin: 2px;
+}
+.border-radius{
+    border: 3px solid black;
+    padding: 25px;
+    border-radius: 20px;
+    border-radius: 10px 50px 100px 15px ;
+    margin: 5%;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+}
+.overflow{
+    border: 2px solid tomato;
+    width: 200px;
+    height: 250px;
+    overflow: scroll;
+    overflow: hidden;
+    overflow: auto;
+    width: 40%;
+    margin: 2em auto;
+}
+.centering-object{
+    border: 1px solid purple;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

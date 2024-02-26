@@ -1,0 +1,27 @@
+.act-1{
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row-1{
+    background-color: salmon;
+    color: white;
+
+}
+.row-1 th a{
+    color: aqua;
+}
+td img{
+   width:200px;
+   height: 200px; 
+}
+.row-2{
+    background-color: lightsalmon;
+    text-align: center;
+}
+.row-1 th span{
+    text-transform: lowercase;
+}

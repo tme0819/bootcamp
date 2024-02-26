@@ -1,0 +1,44 @@
+/* image properties */
+.photo-1{
+    width: 400px;
+    height: 400px;
+}
+
+.photo-2{
+    width: 100%;
+    height: 500px;
+}
+/* background-image
+..=folder folder
+*/
+.bg-image{
+    width: 75%;
+    height: 600px;
+    background-image: url(../images/pexels-han-sen-10676682.jpg);
+    background-image: no-repeat;
+    /* background-image: repeat-x;
+    background-image: repeat-y;
+    background-size: 300px 150x; */
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center center;
+}
+
+/*  */
+.bg-attachment{
+    width: 100%;
+    height: 600px;
+    background-image: url(assets/images/LA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+.bg-shorthand{
+    width: 300px;
+    height: 400px;
+    /* background: color image; */
+    background: aqua url(../images/Palm\ springs.jpg) no-repeat center center fixed;
+    background-size: cover;
+}

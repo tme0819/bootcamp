@@ -1,0 +1,45 @@
+h1, h2{
+    color:magenta;
+}
+/* p{
+    color:blueviolet;
+} */
+
+.text{
+     color:red;
+}
+/* ID as a selector */
+#text1{
+    color:navy;
+}
+#text2{
+    color:lightsalmon;
+}
+#text3{
+    color:green;
+}
+#para{
+    color:brown;
+}
+/* Order list */
+ol li {
+    color:red;
+}
+li a{
+    color:black;
+}
+/* 
+DESCENDANT selector
+ol li a{
+    color:red;  
+*/
+.f1 {
+    color:red;
+}
+.f2{
+    color:yellow;
+}
+.f3{
+    color:orange;
+}
+

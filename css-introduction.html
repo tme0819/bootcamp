@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="assets/css/css-introduction.css">
+    <style>
+        span{
+            color:limegreen
+        }
+        div{
+            color:lightskyblue
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Three types of CSS
+        1.Inline CSS - put style attribute directly the html element
+        2.Internal CSS - the style attribute directly head section
+        3.External CSS - first we need to create a file css then put the link into the HTML
+    -->
+
+    <h1>Example of Inline CSS</h1>
+    <u style="color:blue;">Underlien</u>
+    <b style="color:red;">bold</b>
+
+    <h1>Example of internal CSS</h1>
+    <span>Apple</span>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, atque.</div>
+
+    <h1>Example of External CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sed.</p>
+    <h2>heading2</h2>
+
+    <!-- four types of selectors
+        1.Element as a selector - select all element of a specific type of element
+        2.Class as a selector - select single element you can create multiple class
+        3.ID as a selector - as unique style
+        4.Universal as a selector - means applied all the elements
+    -->
+    <h1>Example of Class as a selector</h1>
+    <p class="text" id="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, dicta.</p>
+    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, dicta.</p>
+    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, dicta.</p>
+
+    <h1>Example of ID as a selector</h1>
+    <p id="text1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odio earum magni placeat, dolorum delectus?</p>
+    <p id="text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odio earum magni placeat, dolorum delectus?</p>
+    <p id="text3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odio earum magni placeat, dolorum delectus?</p>
+
+    <h1>Example of Orderlist</h1>
+    <ol>
+        <li class="f1"><a href="#">Apple</a></li>
+        <li class="f2"><a href="#">Banana</a></li>
+        <li class="f3"><a href="#">Orange</a></li>
+    </ol>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <link rel="stylesheet" href="assets/css/css-table.css">
+</head>
+<body>
+    <!-- table - define to create a table 
+         tr - define table rows
+         th - define table header or colum
+         td - define as a table data
+         width - resize the table 
+         border - create a table line
+         align - align the content
+    -->
+<h1>Example of Table Structure</h1>
+<table class="table-1">
+    <!-- First Row -->
+    <tr>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+    </tr>
+    <!-- Second Row -->
+    <tr>
+         <td>40</td>
+         <td>50</td>
+         <td>60</td>
+    </tr>
+    <!-- Third Row -->
+    <tr>
+         <td>70</td>
+         <td>80</td>
+         <td>90</td>
+    </tr>
+ </table>
+ <h1>Example of Table Structure with Heading</h1>
+ <table class="table-2">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email Address</th>
+    </tr>
+    <tr align="center">
+        <td>Jackie</td>
+        <td>Chan</td>
+        <td>Jackie@yahoo.com</td>
+    </tr>
+    <tr align="center">
+        <td>Tom</td>
+        <td>Cruise</td>
+        <td>Tom@yahoo.com</td>
+    </tr>
+    <tr align="center">
+        <td>Bratt</td>
+        <td>Pitt</td>
+        <td>Bratt@yahoo.com</td>
+    </tr>
+ </table>
+ <!-- what is colspan and row span
+    col span define how many colums that cell should occupy
+    row span define how many rows that cell should occupy
+-->
+
+ <h1>Example of a Table Structure with Colspan or Rowspan</h1>
+ <table class="empty-cells">
+    <tr>
+        <th></th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12am</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Math</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="3" align="center">Gym</td>
+        <td>Home Edu</td>
+    </tr>
+ </table>
+
+ <!-- Row span -->
+ <br>
+<table class="table-3">
+    <tr>
+        <th></th>
+        <th>ABC</th>
+        <th>BBC</th>
+        <th>CNN</th>
+    </tr>
+    <tr>
+        <th>6pm-7pm</th>
+        <td rowspan="2">Movies</td>
+        <td>Comedy</td>
+        <td>News</td>
+    </tr>
+    <tr>
+        <th>7pm-8pm</th>
+        <td>Sports</td>
+        <td>Current Affairs</td>
+    </tr>
+</table>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Basic Structure</h1>
+    <form action="#">
+        <fieldset>
+            <legend>form registration</legend>
+                <div>
+                    <label for="fname">
+                    First Name:
+                      <input type="text" name="fnma" placeholder="Please enter your first name here:" required> 
+                    </label>
+                    <label for="lname">
+                     Last Name:
+                       <input type="text" name="lname id=lname" placeholder="Please enter your last name here:" required>
+                    </label>
+                    <label for="email">
+                    Email Address:
+                        <input type="email" name="email" id="email" placeholder="user@gmail.com" required>
+                    </label>
+                 </div>    
+                 <!-- Password Field -->
+                <div>
+                    <label for="username">
+                        Username:
+                        <input type="text" name="username" id="username" placeholder="Please enter your username here:" required>
+                    </label>
+                    <label for="password">
+                        Password:
+                        <input type="password" name="password" id="password" placeholder="Pleae enter your password here" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <button>Submit botton</button>
+                </div>
+            </fieldset>
+        </form>
+
+<h1>Other Form Control</h1>
+<h1>Text Area</h1>
+<p>comments!</p>
+<textarea name="comment" id="comment" cols="30" rows="20"></textarea>
+
+<h1>Radio Button</h1>
+<p>What is your favorite food</p>
+<input type="radio" name="food" id="ramen"><label for="ramen">Ramen</label>
+<input type="radio" name="food" id="sushi"><label for="sushi">Sushi</label>
+<input type="radio" name="food" id="gyudon"><label for="gyudon">Gyudon</label>
+<input type="radio" name="food" id="misosoup"><label for="misosoup">Misosoup</label>
+
+<h1>Checkbox Button</h1>
+<p>What is your favorit music genre</p>
+<input type="checkbox" name="" id="rock"><label for="rock">Rock</label>
+<input type="checkbox" name="" id="rock"><label for="kpop">K-pop</label>
+<input type="checkbox" name="" id="rock"><label for="jpop">J-pop</label>
+<input type="checkbox" name="" id="rock"><label for="classic">Classic</label>
+<input type="checkbox" name="" id="rock"><label for="ballad">Ballad</label>
+
+<h1>Droplist</h1>
+<label for="list">List of Asian Country?</label>
+<select name="list" id="list">
+    <option disabled selected>--Select List Country</option>
+    <option value="jpn">Japan</option>
+    <option value="tai">Taiwan</option>
+    <option value="ko">Korea</option>
+    <option value="thai">Thailand</option>
+</select>
+
+<h1>Multiple Select Box</h1>
+<p>what is your hobbies?</p>
+<select name="hob" multiple size="4">
+    <option value="red">Reading</option>
+    <option value="play">Playing Badminton</option>
+    <option value="job">Jogging</option>
+    <option value="walk">Walking</option>
+    <option value="swim">Swimming</option>
+    <option value="run">Running</option>
+</select>
+
+<h1>Birthday</h1>
+<input type="date" name="birth" id="birth">
+
+</body>
+</html>

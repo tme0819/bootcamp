@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.john-doe{
+    border: 0.5px solid black;
+    width: 300px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    background-color: lightgoldenrodyellow;
+}
+.john-doe img{
+    border: 1px dotted black;
+    background-color: skyblue;
+    width: 250px;
+    height: 250px;
+}
+
+.jane-doe{
+    border: 0.5px solid black;
+    width: 300px;
+    height: 350px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 30px;
+    background-color: lightgoldenrodyellow;
+}
+.jane-doe img{
+    border: 1px dotted black;
+    background-color: skyblue;
+    width: 250px;
+    height: 250px;
+}
+div h3, div p{
+    margin: 25px;
+}
